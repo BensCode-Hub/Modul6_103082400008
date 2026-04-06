@@ -1,39 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Diagnostics;
 
-public class sayaTubeVideo
+namespace Modul6_103082400008
 {
-    private int id;
-    private string judul;
-    private int playCount;
+    public class SayaTubeVideo
+    {
+        private int id;
+        public string judul;
+        public int playCount;
 
-    public sayaTubeVideo(string judul)
-    {
-        this.judul = judul;
-        Random rnd = new Random();
-        this.id = rnd.Next(10000, 99999);
-        this.playCount = 0;
+        public SayaTubeVideo(string judul)
+        {
+            Debug.Assert(judul != null, "Judul video tidak boleh null.");
+            Debug.Assert(judul.Length <= 200, "Judul video maksimal 200 karakter.");
 
-    }
-    public void IncreasePlayCount(int count)
-    {
-        this.playCount += count;
+            this.judul = judul;
+            Random rnd = new Random();
+            this.id = rnd.Next(10000, 99999);
+            this.playCount = 0;
+        }
 
-    }
-    public void PrintVideoDetails()
-    {
-        Console.WriteLine($"Id Video : {this.id}");
-        Console.WriteLine($"judul Video : {this.judul}");
-        Console.WriteLine($"Play Count : {this.playCount}");
-    }
-    public int GetPlayCount ()
-    {
-        return this.playCount;
-    }
-    public string getJudul()
-    {
-        return this.judul;
-    }
+        public void IncreasePlayCount(int count)
+        {
+            Debug.Assert(count >= 0, "Input play count tidak boleh negatif.");
+            Debug.Assert(count <= 25000000, "Penambahan play count maksimal 25.000.000 per panggilan.");
 
+            try
+            {
+                checked { this.playCount += count; }
+            }
+            catch (OverflowException e)
+            {
+                Console.WriteLine($"\n[EXCEPTION] Overflow terjadi pada video '{this.judul}': {e.Message}");
+            }
+        }
+
+        public void PrintVideoDetails()
+        {
+            Console.WriteLine($"ID Video    : {this.id}");
+            Console.WriteLine($"Judul Video : {this.judul}");
+            Console.WriteLine($"Play Count  : {this.playCount}");
+        }
+
+        public int GetPlayCount() { return this.playCount; }
+        public string GetTitle() { return this.judul; }
+    }
 }

@@ -1,22 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization.Formatters;
-using System.Text;
+﻿
 
 namespace Modul6_103082400008
-
 {
     public class SayaTubeUser
     {
         public string Username { get; set; }
-        private List<sayaTubeVideo> uploadedVideos;
+        private List<SayaTubeVideo> uploadedVideos;
 
         public SayaTubeUser(string username)
         {
             this.Username = username;
-            this.uploadedVideos = new List<sayaTubeVideo>();
-             }
-        public int getTotalVideoPlayCount()
+            this.uploadedVideos = new List<SayaTubeVideo>();
+        }
+
+        public int GetTotalVideoPlayCount()
         {
             int total = 0;
             foreach (var video in uploadedVideos)
@@ -25,21 +22,19 @@ namespace Modul6_103082400008
             }
             return total;
         }
-        public void addVideo(sayaTubeVideo video)
+
+        public void AddVideo(SayaTubeVideo video)
         {
             this.uploadedVideos.Add(video);
         }
+
         public void PrintAllVideoPlayCount()
         {
             Console.WriteLine($"\nUser : {this.Username}");
             for (int i = 0; i < uploadedVideos.Count; i++)
             {
-                {
-                    Console.WriteLine($"Video {i + 1} judul: {uploadedVideos[i].getJudul()}");
-                }
+                Console.WriteLine($"Video {i + 1} judul: {uploadedVideos[i].GetTitle()}");
             }
-
         }
     }
 }
-

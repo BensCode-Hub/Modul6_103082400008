@@ -1,0 +1,15 @@
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.AssemblyInfoInputs.cache
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.AssemblyInfo.cs
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.csproj.CoreCompileInputs.cache
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.sourcelink.json
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\bin\Debug\net10.0\Modul6_103082400008.exe
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\bin\Debug\net10.0\Modul6_103082400008.deps.json
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\bin\Debug\net10.0\Modul6_103082400008.runtimeconfig.json
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\bin\Debug\net10.0\Modul6_103082400008.dll
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\bin\Debug\net10.0\Modul6_103082400008.pdb
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.dll
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\refint\Modul6_103082400008.dll
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.pdb
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\Modul6_103082400008.genruntimeconfig.cache
+C:\Users\Ruben\Documents\Ruben Folder\MATERI KULIAH\KonstruksiPL\Modul6_103082400008\Modul6_103082400008\obj\Debug\net10.0\ref\Modul6_103082400008.dll
