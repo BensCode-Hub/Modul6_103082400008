@@ -6,7 +6,7 @@ namespace Modul6_103082400008
     {
         static void Main(string[] args)
         {
-            // Kutipnya udah gua tambahin nih!
+
             Console.WriteLine("=== UJI NORMAL & POSTCONDITION ===");
             SayaTubeUser user = new SayaTubeUser("Ruben");
 
@@ -19,7 +19,6 @@ namespace Modul6_103082400008
 
             user.PrintAllVideoPlayCount();
 
-            // Kutipnya udah gua tambahin juga!
             Console.WriteLine("\n=== PENGUJIAN EXCEPTION (OVERFLOW) ===");
             SayaTubeVideo videoError = new SayaTubeVideo("Review Film Error oleh Ruben");
 
